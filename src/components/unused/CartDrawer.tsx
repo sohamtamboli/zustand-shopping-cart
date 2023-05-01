@@ -9,7 +9,7 @@ import {
   DrawerOverlay,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import products from "../assets/productData.json";
+import products from "../../assets/productData.json";
 
 interface CartDrawerProps {
   isOpen: boolean;
